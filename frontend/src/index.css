@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #031526;
+  --bg-color-secondary: #5384d0;
+  --text-color: #ffffff;
+}
+
+.scrollbar-style {
+  scrollbar-width: thin;
+  scrollbar-color: var(--text-color) var(--bg-color-secondary);
+}
+
+.scrollbar-style::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbar-style::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 5px;
+}
+
+.scrollbar-style::-webkit-scrollbar-track {
+  background-color: var(--bg-color-secondary);
+}
