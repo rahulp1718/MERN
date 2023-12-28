@@ -1,0 +1,9 @@
+exports.ERR_NOT_FOUND = "Todo not found";
+exports.SELECT_MENTOR = "Please select a mentor";
+exports.INVALID_TEXT_VALUE = "Invalid text value";
+exports.STATUS = ["Pending", "Inprogress", "Completed"];
+exports.TODO_TEXT_LENGTH = "Todo text must be at least 2 characters long";
+exports.UPDATED_SUCCESSFUL = "Updated successfull";
+exports.DELETED_SUCCESSFUL = "Deleted successfull";
+exports.NOT_VALID_ID = "Not valid Id";
+exports.INTERNAL_SERVER_ERROR = "Internal server error";
